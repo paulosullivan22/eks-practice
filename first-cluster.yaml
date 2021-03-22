@@ -14,7 +14,7 @@ nodeGroups:
   - name: ng-mixed
     minSize: 3
     maxSize: 5
-    instancesDistribution:
+    instanceDistribution:
       maxPrice: 0.2
       instanceTypes: ['t2.small', 't3.small']
       onDemandBaseCapacity: 0
